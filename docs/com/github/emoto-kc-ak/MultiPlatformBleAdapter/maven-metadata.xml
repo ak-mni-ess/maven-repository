@@ -3,11 +3,12 @@
   <groupId>com.github.emoto-kc-ak</groupId>
   <artifactId>MultiPlatformBleAdapter</artifactId>
   <versioning>
-    <latest>ba324b9cf31bcbfb47310b862e0cda3c5e6ad8d3</latest>
-    <release>ba324b9cf31bcbfb47310b862e0cda3c5e6ad8d3</release>
+    <latest>35dc5ef5525669d8ac5ef19104766a4828c2c77e</latest>
+    <release>35dc5ef5525669d8ac5ef19104766a4828c2c77e</release>
     <versions>
       <version>ba324b9cf31bcbfb47310b862e0cda3c5e6ad8d3</version>
+      <version>35dc5ef5525669d8ac5ef19104766a4828c2c77e</version>
     </versions>
-    <lastUpdated>20201022131310</lastUpdated>
+    <lastUpdated>20201022145014</lastUpdated>
   </versioning>
 </metadata>
