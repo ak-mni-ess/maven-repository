@@ -1,0 +1,68 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.emoto-kc-ak",
+    "module": "MultiPlatformBleAdapter",
+    "version": "ba324b9cf31bcbfb47310b862e0cda3c5e6ad8d3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7",
+      "buildId": "ofgnxyoyxbewnmxovp6gmvlioy"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "MultiPlatformBleAdapter-ba324b9cf31bcbfb47310b862e0cda3c5e6ad8d3.aar",
+          "url": "MultiPlatformBleAdapter-ba324b9cf31bcbfb47310b862e0cda3c5e6ad8d3.aar",
+          "size": 90043,
+          "sha512": "165f671540b2b24f02ddcfe89bfd60749467768cd8dd9da61e0b4aecd5edffa1db9276085c4caaafcad5ac4f8ed3dd62af79e5fa24034638a25f7b0ad010af0b",
+          "sha256": "c6011a3b79239ee22bc2c64f7fd1cd625250958192cb5641fc5ee300e9443904",
+          "sha1": "9cd265dfbb75d6a774904e0801361abc7bbb3150",
+          "md5": "7cba980654f028d4d79b2beb8beb903d"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.polidea.rxandroidble",
+          "module": "rxandroidble",
+          "version": {
+            "requires": "1.7.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "MultiPlatformBleAdapter-ba324b9cf31bcbfb47310b862e0cda3c5e6ad8d3.aar",
+          "url": "MultiPlatformBleAdapter-ba324b9cf31bcbfb47310b862e0cda3c5e6ad8d3.aar",
+          "size": 90043,
+          "sha512": "165f671540b2b24f02ddcfe89bfd60749467768cd8dd9da61e0b4aecd5edffa1db9276085c4caaafcad5ac4f8ed3dd62af79e5fa24034638a25f7b0ad010af0b",
+          "sha256": "c6011a3b79239ee22bc2c64f7fd1cd625250958192cb5641fc5ee300e9443904",
+          "sha1": "9cd265dfbb75d6a774904e0801361abc7bbb3150",
+          "md5": "7cba980654f028d4d79b2beb8beb903d"
+        }
+      ]
+    }
+  ]
+}
