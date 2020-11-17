@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.github.emoto-kc-ak</groupId>
+  <artifactId>paho.mqtt.android</artifactId>
+  <versioning>
+    <latest>a2f0ce34b95eac70fd5b26910dfab33d34b55956</latest>
+    <release>a2f0ce34b95eac70fd5b26910dfab33d34b55956</release>
+    <versions>
+      <version>a2f0ce34b95eac70fd5b26910dfab33d34b55956</version>
+    </versions>
+    <lastUpdated>20201117051653</lastUpdated>
+  </versioning>
+</metadata>

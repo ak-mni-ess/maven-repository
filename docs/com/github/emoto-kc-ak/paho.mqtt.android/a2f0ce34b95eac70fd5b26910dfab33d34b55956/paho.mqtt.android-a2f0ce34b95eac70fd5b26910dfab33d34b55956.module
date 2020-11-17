@@ -1,0 +1,84 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.emoto-kc-ak",
+    "module": "paho.mqtt.android",
+    "version": "a2f0ce34b95eac70fd5b26910dfab33d34b55956",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7",
+      "buildId": "iknchsuiefeotdxec7mxw3upxq"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.paho",
+          "module": "org.eclipse.paho.client.mqttv3",
+          "version": {
+            "requires": "1.2.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "paho.mqtt.android-a2f0ce34b95eac70fd5b26910dfab33d34b55956.aar",
+          "url": "paho.mqtt.android-a2f0ce34b95eac70fd5b26910dfab33d34b55956.aar",
+          "size": 59857,
+          "sha512": "4b5f8940ff7f68f180ab3e00a6e8a48fea919558a8848a5dff02bc4803663231d97bc00e77938b4ff1dc9e847ca89823b94fa8fd6209e609bb4752a60fb40048",
+          "sha256": "1fee1543cae6cd59c0212eec2edeb3a753d64a752de1f2861cf18bc11b973201",
+          "sha1": "812eb8e0f79b188c988af3ce2f5a6c2a353ad268",
+          "md5": "fde00da27beef6309ec5ef040a6464a9"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.legacy",
+          "module": "legacy-support-v4",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "org.eclipse.paho",
+          "module": "org.eclipse.paho.client.mqttv3",
+          "version": {
+            "requires": "1.2.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "paho.mqtt.android-a2f0ce34b95eac70fd5b26910dfab33d34b55956.aar",
+          "url": "paho.mqtt.android-a2f0ce34b95eac70fd5b26910dfab33d34b55956.aar",
+          "size": 59857,
+          "sha512": "4b5f8940ff7f68f180ab3e00a6e8a48fea919558a8848a5dff02bc4803663231d97bc00e77938b4ff1dc9e847ca89823b94fa8fd6209e609bb4752a60fb40048",
+          "sha256": "1fee1543cae6cd59c0212eec2edeb3a753d64a752de1f2861cf18bc11b973201",
+          "sha1": "812eb8e0f79b188c988af3ce2f5a6c2a353ad268",
+          "md5": "fde00da27beef6309ec5ef040a6464a9"
+        }
+      ]
+    }
+  ]
+}
